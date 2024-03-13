@@ -61,24 +61,24 @@ git push origin feature_branch
 
 ## 8. Create Pull Request
 
-Create a pull request from you feature branch o the main branch on GitHub. Provide a clear description of your changes.
+Create a pull request from you feature branch o the master branch on GitHub. Provide a clear description of your changes.
 
 ## 9. Review and Merge
 
-Reviewers can approve your pull request, leave comments, and suggest changes if necessary. Once approved, merge the pull request into the main branch.
+Reviewers can approve your pull request, leave comments, and suggest changes if necessary. Once approved, merge the pull request into the master branch.
 
 ## 10. Cleanup
 
 Delete the feature branch both locally and on the remote repository after merging.
 ```bash
-git checkout main
+git checkout master
 git branch -d feature_branch
 push origin --delete feature_branch
 ```
 
 ## 11. Update Local Repository
 
-Finally, update your local repository with the latest changes from the main branch.
+Finally, update your local repository with the latest changes from the master branch.
 ```bash
 git pull origin master
 ```
